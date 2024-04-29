@@ -36,6 +36,11 @@ a {
   text-decoration: none;
 }
 
+input,
+button {
+  font-family: inherit;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -458,8 +463,6 @@ rgba(46, 47, 66, 0.7)
 margin-right: 120px;
 }
 
-.footer-social-link {
-
 .link-header {
   font-weight: 500;
   font-size: 16px;
@@ -474,3 +477,16 @@ margin-right: 120px;
 .icon-img {
   fill: #f4f4fd;
 }
+
+.email-address {
+  display: flex;
+  flex-direction: column;
+  max-width: 453px;
+}
+
+.subscribe-button {
+  width: 165px;
+  height: 40px;
+  background-color: #4D5AE5;
+}
+
