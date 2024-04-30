@@ -388,9 +388,9 @@
             </ul>
       </div>
       <form class="email-address">
-        <label for="mail">Subscribe</label>
+        <label class="form-name" for="mail">Subscribe</label>
           <div class="email-form">
-            <input type="email" name="email_address" id="mail" placeholder="E-mail">
+            <input class="form-field" type="email" name="email_address" id="mail" placeholder="E-mail">
             <button class="subscribe-button" type="submit">Subscribe
               <svg>
                 <use class="icon-footer" href="./images/icon_send.svg"></use>
@@ -399,8 +399,33 @@
           </div>
         </form>
     </div>
-    
   </footer>
+
+<!-- modal block -->
+
+  <div class="modal-overlay">
+    <div class="modal">
+      <form class="contact-form">
+        <p>Leave your contacts and we will call you back</p>
+        <label class="field-name">Name
+          <input type="text" class="input-field" name="users_name">
+        </label>
+        <label class="field-name">Phone
+          <input type="tel" class="input-field" name="contact_phone">
+        </label>
+        <label class="field-name">Email
+          <input type="email" class="input-field" name="email_address">
+        </label>
+        <label class="field-name">Comment
+          <textarea name="comment" rows="5" placeholder="Text input"></textarea>
+        </label>
+        <label>
+          <input type="checkbox" name="privacy_policy" value="accept" checked />
+          <p>I accept the terms and conditions of the Privacy Policy</p>
+        </label>
+      </form>
+    </div>
+  </div>
 
 </body>
 
