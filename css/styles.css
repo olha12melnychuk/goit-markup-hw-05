@@ -493,7 +493,7 @@ margin-right: 120px;
 
 .subscribe-form {
   display: flex;
-  gap 24px;
+  gap: 24px;
 }
 
 .form-field {
