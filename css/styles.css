@@ -466,6 +466,9 @@ rgba(46, 47, 66, 0.7)
 .logo-sector {
 margin-right: 120px;
 }
+.footer-social-link {
+  margin-right: 80px;
+}
 
 .link-header {
   font-weight: 500;
@@ -493,7 +496,6 @@ margin-right: 120px;
 
 .subscribe-form {
   display: flex;
-  gap: 24px;
 }
 
 .form-field {
@@ -536,6 +538,7 @@ input::placeholder {
 
 .send-icon {
   margin-left: 16px;
+  fill: rgba(255, 255, 255, 1);
 }
 
 /* --------------Modal--------------- */
