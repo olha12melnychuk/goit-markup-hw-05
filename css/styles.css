@@ -647,7 +647,7 @@ fill: #ffffff;
 }
 
 .field-wraper {
-margin-bottom: 8px;
+margin-bottom: 16px;
 }
 
 .input-wraper {
@@ -663,7 +663,7 @@ margin-bottom: 8px;
 }
 
 .form-input:focus + .checkbox-label .field-icon {
-  fill: rgba(77, 90, 229, 1);
+  fill: #4D5AE5;
 }
 
 .textarea-field {
@@ -719,7 +719,7 @@ margin-bottom: 8px;
 
 
 
-.checkbox-input:checked + .own-checkbox {
+.checkbox-input:checked + .checkbox-label .own-checkbox {
 border: none;
 fill: #F4F4FD;
 }
