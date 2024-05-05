@@ -647,7 +647,10 @@ fill: #ffffff;
 }
 
 .field-wraper {
-margin-bottom: 16px;
+margin-bottom: 8px;
+}
+.textarea-wraper {
+  margin-bottom: 16px;
 }
 
 .input-wraper {
