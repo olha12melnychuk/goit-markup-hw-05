@@ -730,7 +730,7 @@ fill: #ffffff;
 .checkbox-input:checked + .checkbox-label > .own-checkbox {
 border: none;
 fill: #F4F4FD;
-background-color: rgba(77, 90, 229, 1);
+background-color: #404bbf;
 }
 
 .submit-form-button {
