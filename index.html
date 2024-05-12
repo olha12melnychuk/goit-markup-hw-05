@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="description" content="About us" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com" >
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
@@ -15,7 +16,7 @@
 
 <body>
   <header class="header-top">
-    <div class="container">
+    <div class="container header-container">
       <nav class="header-nav">
         <a class="logo" href="./index.html">Web<span class="accent">Studio</span></a>
         <ul class="menu">
@@ -37,6 +38,10 @@
           </li>
         </ul>
       </address>
+      <button class="btn-burger" type="button"><svg class="burger-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-burger"></use>
+      </svg></button> 
+
     </div>
   </header>
 
@@ -48,7 +53,7 @@
       </div>
     </section>
 
-    <section class="section our-advantages">
+    <section class="section our-advantages hidden">
       <div class="container">
         <h2 class="visually-hidden">Our advantages</h2>
         <ul class="our-advantages-menu">
@@ -105,7 +110,7 @@
       </div>
     </section>
 
-    <section class="section our-team">
+    <section class="section our-team hidden">
       <div class="container">
         <h2 class="section-header">Our Team</h2>
         <ul class="card-container">
@@ -263,7 +268,7 @@
       </div>
     </section>
 
-    <section class="section our-portfolio">
+    <section class="section our-portfolio hidden">
       <div class="container">
         <h2 class="section-header">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -361,7 +366,7 @@
     </section>
   </main>
 
-  <footer class="page-end">
+  <footer class="page-end hidden">
     <div class="container footer-container">
       <div class="logo-sector">
         <a class="logo" href="./index.html">Web<span class="accent">Studio</span></a>
@@ -421,7 +426,7 @@
   </footer>
 
   <!-- modal block -->
-  <div class="modal-overlay">
+  <div class="modal-overlay hidden">
     <div class="modal">
       <button class="close-button" type="button">
         <svg class="close-icon" width="8" height="8">
@@ -482,6 +487,66 @@
          <button class="submit-form-button" type="submit">Send</button>
         
       </form>
+    </div>
+  </div>
+
+  <!-- mobile-menu -->
+  <div class="burger-menu">
+    <div class="container burger-menu-container">
+      <button class="burger-button" type="button">
+        <svg class="mobile-close-menu-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
+        </svg>
+      </button>
+
+        <nav class="burger-nav">
+          <ul class="burger-menu-list">
+            <li class="burger-menu-item"><a href="" class="burger-menu-link">Studio</a></li>
+            <li class="burger-menu-item"><a href="" class="burger-menu-link">Portfolio</a></li>
+            <li class="burger-menu-item"><a href="" class="burger-menu-link">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <address class="contacts contacts-mobile-menu">
+          <ul class="mobile-address-list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link contact-link">info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="link contact-link">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-link-list">
+          <li class="mobile-link-list-item">
+            <a class="click-link" href="#">
+              <svg class="mobile-icon-img" width="24" height="24">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-link-list-item">
+            <a class="click-link" href="#">
+              <svg class="mobile-icon-img" width="24" height="24">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-link-list-item">
+            <a class="click-link" href="">
+              <svg class="mobile-icon-img" width="24" height="24">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-link-list-item">
+            <a class="click-link" href="">
+              <svg class="mobile-icon-img" width="24" height="24">
+                <use href="./images/icons.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
     </div>
   </div>
 </body>
